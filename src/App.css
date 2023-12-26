@@ -1,0 +1,82 @@
+.whole {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  max-width: 30%;
+}
+ul {
+  list-style-type: none;
+}
+.child1 {
+  display: flex;
+  background-color: black;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  height: 100vh;
+  width: 80%;
+}
+.loginphoto {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  max-width: 100%;
+}
+.parent {
+  background-image: url("../public/images/login-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* overflow: hidden; */
+}
+.signup {
+  background-image: url("../public/images/signup.jpg");
+  background-size: cover;
+  /* background-size: 300px; */
+  background-repeat: no-repeat;
+  /* background-position: left bottom; */
+}
+
+.empty {
+  /* background-color: blue; */
+  height: 100%;
+  background-image: url("../public/images/empty.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /* background-position: top; */
+}
+
+.messages_bg {
+  /* background-color: black; */
+  height: 100%;
+  width: 100%;
+  background-image: url("../public/images/messages.jpg");
+  background-size: cover;
+  background-position: center center;
+  overflow: visible;
+}
+
+.transparent {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(25px);
+  box-shadow: -15 px 17px 17px rgba(10, 10, 0.25);
+  /* background-color: black; */
+}
+.transparent h1 {
+  color: aliceblue;
+}
+.uppernavbar {
+  width: 100%;
+  /* background-color: black; */
+  margin: 0;
+  padding: 10px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}

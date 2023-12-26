@@ -1,0 +1,82 @@
+* {
+  font-family: "Amatic SC", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Shadows Into Light", cursive;
+  /* background: black;
+  color: white; */
+}
+img {
+  width: 30px;
+  height: 30px;
+}
+.dark-mode {
+  background-color: #333; /* Dark mode background color */
+  color: #fff; /* Dark mode text color */
+}
+
+.light-mode {
+  background-color: #fff; /* Light mode background color */
+  color: #333; /* Light mode text color */
+}
+
+input::placeholder,
+text {
+  text-align: center;
+}
+/* For the sidebar */
+.sidebar-dark {
+  background-color: #222; /* Dark mode sidebar background color */
+  color: #fff; /* Dark mode sidebar text color */
+}
+
+.sidebar-light {
+  background-color: #f2f2f2; /* Light mode sidebar background color */
+  color: #333; /* Light mode sidebar text color */
+}
+
+.usersbar li {
+  margin: 10px;
+  margin-left: 0;
+  list-style-type: none;
+  padding: 2px;
+  /* display: flex; */
+}
+.usersbar li:hover {
+  cursor: pointer;
+}
+.usersbar button {
+  font-size: small;
+  width: 75px;
+  border: none;
+  background-color: #77418e;
+  color: white;
+  border-radius: 10px;
+  height: 30px;
+}
+
+.home {
+  display: flex;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  border: 0.5px rgb(217, 217, 217) solid;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 5px;
+  min-width: 70%;
+}
+.line {
+  background-color: black;
+  height: 1px;
+  flex: 1;
+}
+.map {
+  /* background-color: #222; */
+  display: flex;
+  flex-direction: column;
+}
+.min {
+  min-width: 85%;
+}
